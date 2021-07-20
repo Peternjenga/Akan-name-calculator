@@ -15,35 +15,21 @@
 </head>
 
 <body class="paint">
-    <div class="container" >
+    <div class="container">
 
-        <h1>Akin Name Generator.</h1>
+        <h1>Akan Name Generator.</h1>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias architecto quis quo quas tenetur.
-            Doloribus
-            nesciunt quo fugit debitis voluptatibus, porro, dolore nam voluptatem nobis tenetur dolorum laboriosam rem
-            facilis
-            expedita. Officia libero perferendis blanditiis delectus quos sed debitis corporis corrupti distinctio fuga
-            magni
-            maxime, sunt impedit ipsum quam ex itaque adipisci velit! Minima ullam dignissimos officia blanditiis
-            commodi
-            quas
-            reiciendis, incidunt accusamus tempore ad aspernatur ducimus laboriosam eum atque optio dolores voluptatum,
-            placeat
-            mollitia maiores illo! Nisi possimus ducimus quas veritatis placeat numquam illo, vel quasi adipisci atque
-            reiciendis, sint totam voluptatem. Consequatur cum sapiente illo, aliquid praesentium, quisquam rerum
-            consequuntur,
-            dolorem doloremque nisi commodi eius tenetur quos aspernatur voluptate facilis non! Illum debitis quasi
-            velit
-            magnam
-            suscipit architecto commod</p>
+        <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and
+            then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture.
+            Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the
+            week they were born.</p>
         <form>
 
             <label for="day">Day</label><br>
-            <input type="text" id="day"><br>
+            <input type="text" id="day" id="date"><br>
             <label for="month">Month</label><br>
-            <input type="text" id="month"><br>
-            <label for="year">Year</label><br>
+            <input type="text" id="month" id="date"><br>
+            <label for="year" id="date">Year</label><br>
             <input type="text" id="year"><br>
 
 
@@ -58,8 +44,9 @@
         </form>
 
 
-        <p id="output"></p>
+        <p id="output" class="font"></p>
     </div>
+    
 
     <script src="./js/script.js"></script>
 </body>

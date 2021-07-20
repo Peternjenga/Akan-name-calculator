@@ -25,10 +25,10 @@ function getUserData() {
     function assignAkanName(){
         if (gender == "female")
         
-        document.getElementById("output").innerHTML = "Your akan name is " + femaleNames[d] + " because you were born on " + dayNames[d]
+        document.getElementById("output").innerHTML = "Your akan name is " + femaleNames[d] + " because you were born on " + dayNames[d]+"."
         
         else if (gender == "male")
-        document.getElementById("output").innerHTML ="Your akan name is " + maleNames[d] + " because you were born on " + dayNames[d]
+        document.getElementById("output").innerHTML ="Your akan name is " + maleNames[d] + " because you were born on " + dayNames[d]+"."
 
   } 
     
